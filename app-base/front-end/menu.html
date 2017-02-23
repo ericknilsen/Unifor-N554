@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt" >
+<head>
+<meta charset="UTF-8">
+<title>Sistema Acadêmico</title>
+
+<!--Imports externos: angular, bootstrap e jquery -->
+
+
+<!--Imports internos: main e controllers -->
+
+
+</head>
+
+
+<body>
+<div class="bs-example">
+    <nav id="myNavbar" class="navbar navbar-default" role="navigation">     
+        <div class="container">                  
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a href="" data-toggle="dropdown" class="dropdown-toggle">Turma <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Cadastro</a></li>
+                            <li><a href="">Busca</a></li>                                                      
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="" data-toggle="dropdown" class="dropdown-toggle">Aluno <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="">Cadastro</a></li>
+                            <li><a href="">Busca</a></li>                                                      
+                        </ul>
+                    </li>
+                    <li><a href="">Disciplina</a></li>                    
+                    
+                </ul>                
+            </div>
+        </div>
+    </nav>
+    
+    <div ng-view></div>
+</div>
+
+</body>
+</html>                                     
